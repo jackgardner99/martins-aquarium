@@ -52,9 +52,32 @@ export const database = {
             name: "Mr. Ray",
             species: "Sting Ray",
             length: 7,
-            location: "East Australian Current",
+            location: "Great Barrier Reef",
             diet: "Carnivore",
             image: "https://example.com/images/mr.-ray.jpg"
+        }
+    ],
+    tips: [
+        {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        }
+    ],
+    locations: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+        },
+        {
+            name: "East Australian Current",
+            country: "Australia",
+            description: "The East Australian Current is the longest current track in the entire world, supporting sea turtles to travel across long distance in a short amount of time."
+        },
+        {
+            name: "Outside the Great Barrier Reef",
+            country: "Australia",
+            description: "This area has a large field of underwater mines, where sharks live in sunken ships."
         }
     ]
 }

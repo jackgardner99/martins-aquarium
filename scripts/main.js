@@ -1,6 +1,6 @@
 import { fishList } from './fishList.js'
-//import { tipList } from './tipList.js'
-//import { locationList } from './locationList.js'
+import { tipList } from './tipList.js'
+import { locationList } from './locationList.js'
 
 // Generate the fish list
 const fishHTML = fishList()
@@ -13,3 +13,5 @@ const locationHTML = locationList()
 
 // Render each HTML string to the correct DOM element
 fishHTML.innerHTML = document.getElementById("fishList")
+tipHTML.innerHTML = document.getElementById("tipList")
+locationHTML.innerHTML = document.getElementById("locationList")
