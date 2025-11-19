@@ -19,10 +19,10 @@ export const database = {
         {
             name: "Bruce",
             species: "Great White Shark",
-            length: 10,
-            location: "Outside the Great Barrier Reef",
+            length: 20,
+            location: "Open Ocean",
             diet: "Carnivore",
-            image: "https://static.wikia.nocookie.net/pixar/images/e/e3/Bruce-render.png/revision/latest/thumbnail/width/360/height/360?cb=20181210152244"
+            image: "https://example.com/images/bruce.jpg"
         },
         {
             name: "Marlin",
@@ -35,7 +35,7 @@ export const database = {
         {
             name: "Crush",
             species: "Sea Turtle",
-            length: 7,
+            length: 18,
             location: "East Australian Current",
             diet: "Vegetarian",
             image: "https://example.com/images/crush.jpg"
@@ -51,16 +51,84 @@ export const database = {
         {
             name: "Mr. Ray",
             species: "Sting Ray",
-            length: 7,
+            length: 10,
             location: "Great Barrier Reef",
             diet: "Carnivore",
             image: "https://example.com/images/mr.-ray.jpg"
+        },
+        {
+            name: "Gill",
+            species: "Moorish Idol",
+            length: 7,
+            location: "Pacific Ocean",
+            diet: "Omnivore",
+            image: "https://example.com/images/gill.jpg"
+        },
+        {
+            name: "Bubbles",
+            species: "Yellow Tang",
+            length: 6,
+            location: "Hawaiian Reefs",
+            diet: "Herbivore",
+            image: "https://example.com/images/bubbles.jpg"
+        },
+        {
+            name: "Bloat",
+            species: "Porcupine Pufferfish",
+            length: 12,
+            location: "Indo-Pacific",
+            diet: "Carnivore",
+            image: "https://example.com/images/bloat.jpg"
+        },
+        {
+            name: "Peach",
+            species: "Starfish",
+            length: 8,
+            location: "Coral Reefs",
+            diet: "Carnivore",
+            image: "https://example.com/images/peach.jpg"
+        },
+        {
+            name: "Jacques",
+            species: "Pacific Cleaner Shrimp",
+            length: 3,
+            location: "Pacific Ocean",
+            diet: "Omnivore",
+            image: "https://example.com/images/jacques.jpg"
+        },
+        {
+            name: "Gurgle",
+            species: "Royal Gramma",
+            length: 4,
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/gurgle.jpg"
+        },
+        {
+            name: "Deb",
+            species: "Black and White Damselfish",
+            length: 5,
+            location: "Indo-Pacific",
+            diet: "Omnivore",
+            image: "https://example.com/images/deb.jpg"
         }
     ],
     tips: [
         {
             topic: "Water Temperature",
             text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+        {
+            topic: "pH Levels",
+            text: "Keep the pH level between 6.5-7.5 for a healthy freshwater aquarium. Test weekly to ensure stability."
+        },
+        {
+            topic: "Tank Cleaning",
+            text: "Perform partial water changes of 20-25% every two weeks to remove waste and maintain water quality."
+        },
+        {
+            topic: "Feeding Schedule",
+            text: "Feed your fish small amounts 1-2 times per day, only what they can consume in 2-3 minutes to prevent overfeeding."
         }
     ],
     locations: [
